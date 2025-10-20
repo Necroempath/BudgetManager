@@ -8,8 +8,7 @@ while(true){
 
     if(option == null)
         break;
-
-
+    
     option = option.toLowerCase().trim();
 
     if(option === 'income' || option === '1'){
