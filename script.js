@@ -3,11 +3,9 @@ const expenses = [];
 
 let current = null;
 
-while(true){
-    let option = prompt("Enter option:\n1. Income\n2. Expense\n3. Total");
+let option;
 
-    if(option == null)
-        break;
+while((option = prompt("Enter option:\n1. Income\n2. Expense\n3. Total")) !== null){
     
     option = option.toLowerCase().trim();
 
